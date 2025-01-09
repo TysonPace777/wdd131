@@ -66,10 +66,6 @@ img {
     box-shadow: 0 0 1px;
 }
 
-.right-sidebar {
-    grid-column: 2 / 2;
-}
-
 footer {
     background: lightgray;
     padding: 2rem;
