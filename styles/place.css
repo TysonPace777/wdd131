@@ -2,11 +2,18 @@
     --text-color: darkred;
 }
 
+.roboto-slab-uniquifier {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 header {
     background-color: black;
     color: yellow;
     display: grid;
     justify-content: center;
+    font-family: "Roboto Slab";
 }
 
 li {
