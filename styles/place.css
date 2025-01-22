@@ -1,5 +1,6 @@
 :root {
     --text-color: darkred;
+    --heading-font: "Roboto Slab";
 }
 
 .roboto-slab-uniquifier {
@@ -13,7 +14,11 @@ header {
     color: yellow;
     display: grid;
     justify-content: center;
-    font-family: "Roboto Slab";
+    font-family: var(--heading-font);
+}
+
+h2 {
+    font-family: var(--heading-font);
 }
 
 li {
