@@ -1,0 +1,35 @@
+table {
+    margin: 10px auto;
+    border: thin solid black;
+    box-shadow: 0 0 10px darkgray;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+
+.header {
+    background-color: gray;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.empty {
+    background-color: black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
