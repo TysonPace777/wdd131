@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    <main>
+        <div class="image-container">
+            <img src="images/bear.webp" alt="Bear 1" loading="lazy" width="400" height="600">
+            <img src="images/bear.webp" alt="Bear 2" loading="lazy" width="400" height="600">
+            <img src="images/bear.webp" alt="Bear 3" loading="lazy" width="400" height="600">
+            <img src="images/bear.webp" alt="Bear 4" loading="lazy" width="400" height="600">
+            <img src="images/bear.webp" alt="Bear 5" loading="lazy" width="400" height="600">
+            <img src="images/bear.webp" alt="Bear 6" loading="lazy" width="400" height="600">
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Tyson Pace - United States of America</p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
