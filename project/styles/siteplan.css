@@ -1,0 +1,20 @@
+header{
+    background-color: #FFB22C;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+.card {
+    border-color: #FFDE4D;
+    border-width: 2px;
+}
+
+p {
+    font-family: roboto;
+}
+
+footer {
+    background-color: #F3FEB8;
+}
