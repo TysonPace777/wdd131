@@ -30,6 +30,7 @@ function displayList(item) {
 
     deleteButton.addEventListener('click', function () {
         list.removeChild(li);
+        deleteChapter(li.textContent);
         input.focus();
     })
     input.value = '';
