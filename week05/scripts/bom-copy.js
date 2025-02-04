@@ -10,13 +10,13 @@ chaptersArray.forEach(chapter => {
 });
 
 button.addEventListener('click', () => {
-if (input.value != '') {
-    displayList(input.value);
-    chaptersArray.push(input.value);
-    setChapterList();
-    input.value = ''
-    input.focus();
-}
+    if (input.value != '') {
+        displayList(input.value);
+        chaptersArray.push(input.value);
+        setChapterList();
+        input.value = ''
+        input.focus();
+    }
 });
 
 function displayList(item) {
@@ -24,7 +24,7 @@ function displayList(item) {
     let deleteButton = document.createElement('button');
     li.textContent = item;
     deleteButton.textContent = '❌';
-    deletebutton.classList.add('delete');
+    deleteButton.classList.add('delete');
     li.append(deleteButton);
     list.append(li);
 
