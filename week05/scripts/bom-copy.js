@@ -33,7 +33,6 @@ function displayList(item) {
         deleteChapter(li.textContent);
         input.focus();
     })
-    input.value = '';
     input.focus();
 }
 
