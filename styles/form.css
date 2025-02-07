@@ -6,8 +6,7 @@ header {
 	padding-bottom: 2px;
 }
 
-.review input[type="checkbox"]
-{
+.review input[type="checkbox"] {
 	display: block;
 	margin-top: 20px;
 	margin-bottom: 3px;
@@ -34,17 +33,16 @@ header {
 	color: #135d66;
 }
 
-.review input[type="submit"]
-{
+.review input[type="submit"] {
 	border: none;
-    background-image: linear-gradient(#4da1a9, #2e5077);
-    color: #fff;
-    border-radius: 6px;
-    padding: .8rem;
-    width: 96%;
-    max-width: 400px;
-    margin: 25px 2px 20px 0px;
-    box-shadow: 1px 1px 4px #999;
+	background-image: linear-gradient(#4da1a9, #2e5077);
+	color: #fff;
+	border-radius: 6px;
+	padding: .8rem;
+	width: 96%;
+	max-width: 400px;
+	margin: 25px 2px 20px 0px;
+	box-shadow: 1px 1px 4px #999;
 }
 
 input[type="radio"] {
@@ -59,7 +57,7 @@ input[type="radio"] {
 	justify-content: center;
 }
 
-.stars > label {
+.stars>label {
 	color: gold;
 	width: 30px;
 	height: 30px;
@@ -71,24 +69,24 @@ input[type="radio"] {
 	caret-color: rgba(0, 0, 0, 0);
 }
 
-.stars > label:hover {
+.stars>label:hover {
 	color: #000;
 }
 
-.stars > label::before {
+.stars>label::before {
 	content: "\2606";
 }
 
-.stars input:checked ~ label::before {
+.stars input:checked~label::before {
 	content: "\2605";
 }
 
 footer {
-    background-color: #578fca;
-    color: black;
-    display: grid;
-    justify-content: center;
-    text-align: center;
+	background-color: #578fca;
+	color: black;
+	display: grid;
+	justify-content: center;
+	text-align: center;
 }
 
 .complete {
