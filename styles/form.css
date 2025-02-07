@@ -90,3 +90,9 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
+.complete {
+	text-align: center;
+	padding-top: auto;
+	padding-bottom: auto;
+}

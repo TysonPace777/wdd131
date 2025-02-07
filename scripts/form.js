@@ -1,3 +1,5 @@
+const button = document.querySelector('button');
+
 const today = new Date();
 
 const currentyear = document.querySelector("#currentyear")
@@ -33,3 +35,20 @@ const products = [
       averagerating: 5.0
     }
   ];
+
+const sct = document.getElementById('sct')
+
+products.forEach(product => {
+  const option = document.createElement('option');
+  option.textContent = product.name;
+  option.value = products.id
+  sct.appendChild(option);
+})
+
+function submitNumber() {
+  localStorage.setItem('Reviews Submitted', JSON.stringify++);
+}
+
+button.addEventListener('click', () => {
+  submitNumber()
+})
