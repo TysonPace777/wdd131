@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Recommedation</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Tyson Pace - Form Page">
+    <meta name="author" content="Tyson Pace">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <script src="scripts/index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/icon.webp" alt="logo">
+        <h1>Top Video Games You Have to Try!</h1>
+        <button id="menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Send a Recommendation</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Give Us Your Recommendations</h2>
+        <form method="get" action="review.html" class="review">
+            <fieldset>
+                <legend>Product Name*</legend>
+                <label><select id="sct" name="select" required>
+                        <option value="" disabled selected>Please Select</option>
+                    </select></label>
+            </fieldset>
+            <fieldset>
+                <legend>Overall Rating*</legend>
+                <div class="stars">
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Date of Installation*</legend>
+                <label>Select Date: <input type="date" name="installDate" required></label>
+            </fieldset>
+            <fieldset class="">
+                <legend>What Features Were Useful To You?</legend>
+                <div>
+                    <label class="check"><input type="checkbox" name="durability" value="yes">Durability</label>
+                    <label class="check"><input type="checkbox" name="ease" value="yes">Ease of Use</label>
+                    <label class="check"><input type="checkbox" name="performance" value="yes">Performance</label>
+                    <label class="check"><input type="checkbox" name="design" value="yes">Design</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Written Review (Optional)</legend>
+                <label><textarea id="area" name="text" placeholder="Your Review Here: "></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Name (Optional)</legend>
+                <label><input type="text" id="user" name="person"></label>
+            </fieldset>
+            <input type="submit" value="Review Product" id="button">
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Tyson Pace - United States of America</p>
+        <p><span id="lastmodified"></span></p>
+        <a
+            href="https://docs.google.com/document/d/1JNPgzjkdYm6p5El18cZxfwpffr7RVUuUh4UazYa6cRk/edit?tab=t.0">Wireframe</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+@media (min-width: 740px) {
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-right: 5px;
+    }
+
+    nav a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+        font-size: larger;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+}
