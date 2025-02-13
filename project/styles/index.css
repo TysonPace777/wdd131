@@ -12,7 +12,6 @@ header {
 
 header img {
     max-width: 200px;
-    max-height: auto;
 }
 
 h1 {
@@ -132,6 +131,12 @@ p,
 h3 {
     font-family: roboto;
     text-align: center;
+}
+
+.card-text {
+    font-family: roboto;
+    text-align: center;
+    padding-top: 5px;
 }
 
 .about {
