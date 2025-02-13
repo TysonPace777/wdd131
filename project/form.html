@@ -9,6 +9,7 @@
     <meta name="author" content="Tyson Pace">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/index-large.css">
+    <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,43 +34,33 @@
         <h2>Give Us Your Recommendations</h2>
         <form method="get" action="review.html" class="review">
             <fieldset>
-                <legend>Product Name*</legend>
+                <legend>Game Genre*</legend>
                 <label><select id="sct" name="select" required>
                         <option value="" disabled selected>Please Select</option>
                     </select></label>
             </fieldset>
             <fieldset>
-                <legend>Overall Rating*</legend>
-                <div class="stars">
-                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
-                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
-                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
-                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
-                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Date of Installation*</legend>
+                <legend>Date of Recommendation*</legend>
                 <label>Select Date: <input type="date" name="installDate" required></label>
             </fieldset>
             <fieldset class="">
-                <legend>What Features Were Useful To You?</legend>
+                <legend>Why do you like this game?</legend>
                 <div>
-                    <label class="check"><input type="checkbox" name="durability" value="yes">Durability</label>
-                    <label class="check"><input type="checkbox" name="ease" value="yes">Ease of Use</label>
-                    <label class="check"><input type="checkbox" name="performance" value="yes">Performance</label>
-                    <label class="check"><input type="checkbox" name="design" value="yes">Design</label>
+                    <label class="check"><input type="checkbox" name="Missions" value="yes">Lots of Missions</label>
+                    <label class="check"><input type="checkbox" name="graphics" value="yes">Good Graphics</label>
+                    <label class="check"><input type="checkbox" name="price" value="yes">Price</label>
+                    <label class="check"><input type="checkbox" name="Company" value="yes">The Creator(s)</label>
                 </div>
             </fieldset>
             <fieldset>
-                <legend>Written Review (Optional)</legend>
-                <label><textarea id="area" name="text" placeholder="Your Review Here: "></textarea></label>
+                <legend>Game Name Here</legend>
+                <label><textarea id="area" name="text" placeholder="Type Name Here: " required></textarea></label>
             </fieldset>
             <fieldset>
                 <legend>Your Name (Optional)</legend>
                 <label><input type="text" id="user" name="person"></label>
             </fieldset>
-            <input type="submit" value="Review Product" id="button">
+            <input type="submit" value="Recommend Game" id="button">
         </form>
     </main>
     <footer>

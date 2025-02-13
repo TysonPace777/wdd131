@@ -1,0 +1,76 @@
+.review input[type="checkbox"] {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review {
+    text-align: center;
+    justify-content: center;
+    width: 98%;
+    padding: 10px;
+}
+
+.review fieldset {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.review legend {
+    text-align: center;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.review input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#FFDE4D, #FF8C1A);
+    color: black;
+    font-size: large;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 25px 2px 20px 0px;
+    box-shadow: 1px 1px 4px #999;
+}
+
+input[type="radio"] {
+    display: none;
+    position: relative;
+    caret-color: rgba(0, 0, 0, 0);
+}
+
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.stars>label {
+    color: gold;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    caret-color: rgba(0, 0, 0, 0);
+}
+
+.stars>label:hover {
+    color: #000;
+}
+
+.stars>label::before {
+    content: "\2606";
+}
+
+.stars input:checked~label::before {
+    content: "\2605";
+}
