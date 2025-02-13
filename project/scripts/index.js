@@ -61,7 +61,7 @@ const games = [
   function submitNumber() {
     let currentCount = JSON.parse(localStorage.getItem('Games Submitted')) || 0;
     currentCount++;
-    localStorage.setItem('Reviews Submitted', JSON.stringify(currentCount));
+    localStorage.setItem('Games Submitted', JSON.stringify(currentCount));
   }
   
   button.addEventListener('click', () => {

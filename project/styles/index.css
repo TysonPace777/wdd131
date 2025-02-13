@@ -134,6 +134,13 @@ h3 {
     text-align: center;
 }
 
+.about {
+    display: grid;
+    justify-self: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
 footer {
     background-color: #F3FEB8;
     padding: 1rem;
